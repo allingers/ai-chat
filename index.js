@@ -33,7 +33,7 @@ while (true) {
   const userContent = readlineSync.question(chalk.cyan("User:"));
 
   if (userContent.toLocaleLowerCase() === "exit") {
-    console.log(chalk.yellow("Asisstant: ") + " Bye!");
+    console.log(chalk.yellow("AI: ") + " Bye!");
     break;
   }
 
